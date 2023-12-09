@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <form class="container">
+        <h2>Login</h2>
+        <input type="text" name="" id="name" class="name" placeholder="Name" required>
+
+        <input type="password" name="" id="pass1" class="name"  placeholder="Password" required>
+    
+        <button class="btn" onclick="show()">Login</button>
+    </form>
+        
+    
+</body>
+<script>
+
+function show()
+{
+    let a=document.getElementById("pass1").value;
+    // let b=document.getElementById("pass2").value;
+    let p="abc";
+    
+        if(a === p)
+        {
+            alert("Login Successful");
+        }
+        else
+        {
+            alert("Login failed");
+        }
+
+}
+</script>
+</html>

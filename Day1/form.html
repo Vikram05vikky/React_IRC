@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form class="container">
+        <h2>Registration form</h2>
+        <input type="text" name="" id="name" class="name" placeholder="Name" required>
+
+        <input type="tel" name="" id="phone" class="name"  placeholder="Phone No" required>
+
+        <input type="number" name="" id="age" class="name"  placeholder="Age" required>
+
+        <input type="email" name="" id="email" class="name"  placeholder="Email" required>
+
+        <input type="password" name="" id="pass1" class="name"  placeholder="Password" required>
+        <input type="password" name="" id="pass2" class="name"  placeholder="Confirm Password" required>
+
+        <input type="date" name="" id="dob" class="name"  placeholder="Date of Birth" required>
+
+        <input type="text" name="" id="Address" class="name"  placeholder="Address" required>
+
+        <button class="btn" onclick="show()">Register</button>
+    </form>
+        
+    
+</body>
+<script>
+// function print()
+// {
+//     alert(document.getElementById("name").value);
+//     alert(document.getElementById("phone").value);
+//     alert(document.getElementById("age").value);
+//     alert(document.getElementById("email").value);
+//     // alert(document.getElementById("pass").value);
+//     alert(document.getElementById("dob").value);
+//     alert(document.getElementById("Address").value);
+// }
+
+// function show()
+// {
+//     alert("User "+document.getElementById("name").value);
+// }
+
+function show()
+{
+    let a=document.getElementById("pass1").value;
+    let b=document.getElementById("pass2").value;
+    
+    if(confirm("Sure"))  
+    {
+        if(a === b)
+        {
+            alert("Password matched");
+            alert("User "+document.getElementById("name").value+" Registered!");
+        }
+        else
+        {
+            alert("Password not matched");
+        }
+    }
+    else
+    {
+        alert("Failed");
+    }
+
+}
+</script>
+</html>
