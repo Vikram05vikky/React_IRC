@@ -1,11 +1,11 @@
-import './Assets/css/navbar.css'
+import './Assets/css/Nav.css'
 
 function Nav()
 {
     return(
         <div>
-        <a href="login.html">Login</a>
-        <a href="form.html">Register</a>
+        <a href="App.js">Login</a>
+        <a href="#">Register</a>
         </div>
     )
 }
