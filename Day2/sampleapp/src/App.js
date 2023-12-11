@@ -1,15 +1,14 @@
-import './Assets/css/style.css'
-import './src/Login'
-// import Nav from './Components/Nav'
+import "./Assets/css/Login.css"
+import login from './Components/Login';
+
+import Nav from './Components/Nav';
 function App()
 {
     return(
         <div>
-            <div>
-        <a href="App.js">Register</a>
-        <a href="Login.js">Login</a>
-        </div>
-
+            
+            <Nav/>
+            <Login/>
            <form class="container">
         <h2>Registration form</h2>
         <input type="text" name="" id="name" className="name" placeholder="Name" required/>
