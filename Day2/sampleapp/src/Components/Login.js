@@ -1,9 +1,8 @@
-import './Assets/css/login'
-
-function login()
+import '../Assets/Login.css'
+function Login()
 {
     return(
-       
+       <body>
         <div>
             <nav>
                 <div className="right-side">
@@ -21,7 +20,8 @@ function login()
                 <button className="btn">Login</button>
             </form>
         </div>
+        </body>
     );
 }
 
-export default login
+export default Login

@@ -1,4 +1,3 @@
-import './Assets/css/Nav.css'
 
 function Nav()
 {

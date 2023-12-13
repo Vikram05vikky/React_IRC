@@ -1,16 +1,28 @@
-import Login from './Components/Login';
-import Nav from './Components/Nav';
-import './Assets/css/Nav.css'
-
-function App()
-{
-    return(
-        <body>
-        <div>
+import React from 'react'
+import '../Assets/Register.css'
+import { Link } from 'react-router-dom'
+import Login from './Login'
+function Register() {
+    const Show=()=>
+    {
+        let a=document.getElementById('pass1').value;
+        let b=document.getElementById('pass2').value;
+       
+        if(a==b)
+        {
+            alert("Password matched ! Register Successful");
+        }
+        else{
             
-            <Nav/>
-            {/* <Login/> */}
-           <form class="container">
+            alert("Password not matched !");
+        }
+        
+    }
+  return (
+    <div className='abc'>
+        <div className='b2'>
+    
+    <form class="container1" onSubmit={Show}>
         <h2>Registration form</h2>
         <input type="text" name="" id="name" className="name" placeholder="Name" required/>
 
@@ -27,12 +39,19 @@ function App()
 
         <input type="text" name="" id="Address" className="name"  placeholder="Address" required/>
 
-        <button class="btn" onclick="show()">Register</button>
+        <button class="btnn">Register</button>
+        <button class="btnn"><Link to='/'> Back</Link></button>
     </form>
         
+
     
-        </div>
-        </body>
-    )
+</div>
+    </div>
+  )
 }
-export default App
+
+
+
+
+
+export default Register
