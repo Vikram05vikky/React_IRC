@@ -10,7 +10,8 @@ function Register() {
        
         if(a==b)
         {
-            alert("Password matched ! Register Successful");
+            // alert("Password matched ! Register Successful");
+            <Link to='/Landing'></Link>
         }
         else{
             

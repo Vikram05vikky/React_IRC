@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
 .star {
   transform-style: preserve-3d;
   width: 3px;
@@ -8,10 +8,11 @@
 }
 .star:before {
   position: absolute;
-  content: '\2726';
+  content: '🐾';
+
   color: inherit;
   inset: 0;
-  text-shadow: 0 0 .8em #fff5;
+  text-shadow: 0 0 .9em  #f8a414;
 }
 body {
   margin: 0;

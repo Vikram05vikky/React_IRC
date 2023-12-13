@@ -20,31 +20,9 @@ const App=()=>
                 <h1 class="c">Adopt <br></br>Me !</h1>
                 <br></br>
                 <h3><p>Abandoned pets and stray dogs do not ask for much. All they need is another chance.Abused or neglected on Indian streets, Desi dogs are finding loving homes in the West! These dogs are known to have a calm and gentle demeanor around them. They bond strongly with their people and make an excellent family pet that is very loving, loyal and intelligent.</p></h3>  
-                
-                {/* <h2><p>Streamlined staging services that inspire and sell.</p></h2>  */}
-
-
             </div> 
           
         </div> 
-    
-       
-       {/* <div class="content1">
-                <div class="card1">
-              <img class="card-img-top"/>
-              
-          </div>
-            <div class="info1">
-                <h1 class="c">Be <br></br>Creative</h1>
-                <br></br>
-                <h3><p>We make interior staging easy and convenient.We are streamlining home staging with end-to-end services, including planning, designing, and professional marketing photography all in one place. We deliver what you want, when you want it.</p></h3>  
-                
-                <h2><p>Streamlined staging services that inspire and sell.</p></h2> 
-
-
-            </div> 
-          
-        </div>  */}
     
         <div class="media-icons">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>

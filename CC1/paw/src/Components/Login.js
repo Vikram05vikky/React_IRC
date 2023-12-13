@@ -3,10 +3,9 @@ import '../Assets/Login.css'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import Register from './Register'
-
 const Login=()=> {
 
-  const navigate=useNavigate();
+  const move=useNavigate();
   const Signin=()=>
   {
     let a=document.getElementById('name').value;
@@ -23,13 +22,12 @@ const Login=()=> {
     }
     else{
       
-        navigate('/Landing');
+        move('/Landing');
     }
 
   }
   return (
     <div className='v1' >
-        {/* <Nav/> */}
    <body className='b1'> 
     <form class="container" onSubmit={Signin}>
         <h2>Login</h2>

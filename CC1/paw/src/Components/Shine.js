@@ -8,7 +8,7 @@ function Shine() {
     const dist_to_draw = 50;
     const delay = 1000;
     const fsize = ['1.1rem', '1.4rem', '.8rem', '1.7rem'];
-    const colors = ['#E23636', '#F9F3EE', '#E1F8DC', '#B8AFE6', '#AEE1CD', '#5EB0E5'];
+    // const colors = ['#E23636', '#F9F3EE', '#E1F8DC', '#B8AFE6', '#AEE1CD', '#5EB0E5'];
 
     const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
     const selRand = (o) => o[rand(0, o.length - 1)];
@@ -26,7 +26,7 @@ function Shine() {
       }
 
       const str = document.createElement('div');
-      str.innerHTML = '&#10022;';
+      // str.innerHTML = '&#10022;';
       str.className = 'star';
       str.style.top = `${y + rand(-20, 20)}px`;
       str.style.left = `${x}px`;
@@ -37,21 +37,21 @@ function Shine() {
 
       const fs = 10 + 5 * parseFloat(getComputedStyle(str).fontSize);
 
-      str.animate(
-        {
-          translate: `0 ${(y + fs) > vh ? vh - y : fs}px`,
-          opacity: 0,
-          transform: `rotateX(${rand(1, 500)}deg) rotateY(${rand(1, 500)}deg)`
-        },
-        {
-          duration: delay,
-          fill: 'forwards',
-        }
-      );
+      // str.animate(
+      //   {
+      //     translate: `0 ${(y + fs) > vh ? vh - y : fs}px`,
+      //     opacity: 0,
+      //     transform: `rotateX(${rand(1, 500)}deg) rotateY(${rand(1, 500)}deg)`
+      //   },
+      //   {
+      //     duration: delay,
+      //     fill: 'forwards',
+      //   }
+      // );
 
       setTimeout(() => {
         str.remove();
-      }, delay);
+      }, 300);
     };
 
     const handleMouseMove = (e) => {
