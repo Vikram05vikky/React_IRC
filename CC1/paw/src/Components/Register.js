@@ -1,8 +1,12 @@
 import React from 'react'
 import '../Assets/Register.css'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Login from './Login'
 function Register() {
+
+    const move=useNavigate();
+
     const Show=()=>
     {
         let a=document.getElementById('pass1').value;
@@ -10,8 +14,9 @@ function Register() {
        
         if(a==b)
         {
-            // alert("Password matched ! Register Successful");
-            <Link to='/Landing'></Link>
+            alert("Password matched ! Register Successful");
+            move('/Landing');
+            
         }
         else{
             
@@ -19,8 +24,12 @@ function Register() {
         }
         
     }
+    
+    const b=()=>{
+        move('/');
+    }
   return (
-    <div className='abc'>
+    // <div className='abc'>
         <div className='b2'>
     
     <form class="container1" onSubmit={Show}>
@@ -41,13 +50,10 @@ function Register() {
         <input type="text" name="" id="Address" className="name"  placeholder="Address" required/>
 
         <button class="btnn">Register</button>
-        <button class="btnn"><Link to='/'> Back</Link></button>
+        <button class="btnn"onClick={b}>Back</button>
     </form>
-        
-
-    
 </div>
-    </div>
+    // </div>
   )
 }
 

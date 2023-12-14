@@ -8,6 +8,7 @@
 }
 .star:before {
   position: absolute;
+  /* content: ''; */
   content: '🐾';
 
   color: inherit;

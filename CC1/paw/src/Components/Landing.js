@@ -14,7 +14,6 @@ const App=()=>
        <div class="content">
                 <div class="card">
               <img class="card-img-top"/>
-              
           </div>
             <div class="info">
                 <h1 class="c">Adopt <br></br>Me !</h1>

@@ -26,6 +26,11 @@ const Login=()=> {
     }
 
   }
+
+  const show=()=>{
+    move('/Register');
+  }
+
   return (
     <div className='v1' >
    <body className='b1'> 
@@ -37,7 +42,7 @@ const Login=()=> {
        
         <button class="btn1" >Login</button>
 
-        <button class='btn1'><Link to='/Register'>Register</Link></button>
+        <button class='btn1'onClick={show}>Register</button>
     </form>
        
   </body>
