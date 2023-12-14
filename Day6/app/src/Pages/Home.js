@@ -11,15 +11,15 @@ const Home = () => {
   return (
     <div>
       <Grid container spacing={2}>
-        <Grid item xs={3}>
-          <Item>
-            {/* <Card sx={{ color: "red" }}> */}
-            <Card sx={{ minWidth: 275 }}>
-              <CardContent style={{ backgroundColor: "red" }}></CardContent>
-            </Card>
-          </Item>
+        <Grid item xs={2}>
+          {/* <Item> */}
+          {/* <Card sx={{ color: "red" }}> */}
+          <Card>
+            <CardContent style={{ backgroundColor: "red" }}></CardContent>
+          </Card>
+          {/* </Item> */}
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={6}>
           <Item>
             <Card sx={{ minWidth: 275 }}>
               <CardContent style={{ backgroundColor: "blue" }}></CardContent>
@@ -33,7 +33,7 @@ const Home = () => {
             </Card>
           </Item>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={1}>
           <Item>
             <Card sx={{ minWidth: 275 }}>
               <CardContent style={{ backgroundColor: "orange" }}></CardContent>
