@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 // import './App.css';
-// import Parent from './Components/Parent';
-import StateEx from './Components/StateEx';
+import Parent from "./Components/Parent";
+import StateEx from "./Components/StateEx";
 
 function App() {
   return (
     <div>
-    
-      <StateEx/>
-      
+      {/* <StateEx /> */}
+      <Parent />
     </div>
   );
 }
