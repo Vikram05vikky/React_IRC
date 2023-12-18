@@ -1,0 +1,211 @@
+body {
+    background-color: #fefefe;
+    font-family: Arial;
+  }
+  
+  .lnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    min-height: 100vh;
+    background-color: #000000;
+    text-align: center;
+  }
+  .lnav a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+  }
+  .lnav a i {
+    padding: 0.5em;
+  }
+  .lnav a:hover i {
+    color: #ffc107;
+  }
+  .lnav a::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    transform: translate(100px, -50%);
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    color: #ffc107;
+  }
+  .lnav a:hover::after {
+    visibility: visible;
+    transform: translate(10px, -50%);
+    opacity: 1;
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: "segoe ui";
+  }
+  
+  .nav {
+    height: 70px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    border-left: .1cm #ffc107;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+    gap: 2cm;
+    size: 2cm;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    gap: 2cm;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    gap: 2cm;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    /* background-color: rgba(0, 0, 0, 0.3); 
+    border-bottom: .1cm solid #ffc107;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width: 600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,
+    .nav #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+  .i{
+    size: 30px;
+  } */
+
+  .button-container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    /* border-radius: 10px; */
+    /* margin-left: 40%; */
+  }
+  
+  .button {
+    outline: 0 ;
+    border: 0 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: translateY(-5px);
+    color: #ffc107;
+    font-size: 23px;
+    /* border-bottom: #ffc107; */
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .paw{
+    outline: 0 ;
+    border: 0 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 60%;
+    background-color: transparent;
+    display: flex;
+    align-items: left;
+    font-size: 20px;
+    justify-content: center;
+    color: #ffc107;
+  }
+
+  .button-container .n1 .paw{
+    padding-right: 20cm;
+  }

@@ -1,15 +1,15 @@
 import Nav from "./Nav";
 import "../Assets/Landing.css";
 import Shine from "./Shine";
-// import { Side } from "./Side";
 
 const App = () => {
   return (
     <body className="h">
       <section>
         <Shine />
+        <sidebar />
         {/* <Side /> */}
-        {/* <Nav /> */}
+        <Nav />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
