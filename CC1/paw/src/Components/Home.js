@@ -6,6 +6,7 @@ import "../Assets/Home.css";
 function Home() {
   return (
     <body className="dv2">
+      {/* <Shine /> */}
       <div className="abc">
         <Sidebar />
         <div className="dv1">
@@ -14,10 +15,11 @@ function Home() {
               fontStyle: "italic",
               fontSize: "60px",
               fontFamily: "'Times New Roman', Times, serif",
+              color: "white",
+              marginBottom: "white",
             }}
           >
-            “ You can’t change their past,<br></br> but you can rewrite<br></br>{" "}
-            their future. ”
+            You can’t change their past, but you can rewrite their future.
           </h1>
         </div>
       </div>

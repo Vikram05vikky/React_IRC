@@ -13,7 +13,7 @@
 
   color: inherit;
   inset: 0;
-  text-shadow: 0 0 .9em  #f8a414;
+  /* text-shadow: 0 0 .9em  #f8a414; */
 }
 body {
   margin: 0;
