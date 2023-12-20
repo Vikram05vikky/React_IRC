@@ -17,10 +17,7 @@ function Sidebar() {
       <link href="path/to/font-awesome/css/font-awesome.min.css"></link>
       <div className="button-container">
         <nav className="n1"></nav>
-        <img
-          src={img1}
-          style={{ position: "absolute", top: 0, left: 0, height: "100px" }}
-        ></img>
+
         <button className="button">
           <Link to="/Home" style={{ textDecoration: "none", color: "white" }}>
             Home
@@ -28,7 +25,7 @@ function Sidebar() {
         </button>
         <button className="button">
           <Link to="/About" style={{ textDecoration: "none", color: "white" }}>
-            About
+            Stories
           </Link>
         </button>
         <button className="button">
@@ -36,19 +33,32 @@ function Sidebar() {
             to="/Contact"
             style={{ textDecoration: "none", color: "white" }}
           >
-            Contact
+            About
           </Link>
         </button>
         <button className="button">
           <Link to="/Info" style={{ textDecoration: "none", color: "white" }}>
-            Info
+            Contact
           </Link>
+        </button>
+        <button className="button" style={{ color: "black" }}>
+          ...
         </button>
       </div>
       <nav className="lnav">
+        <img
+          src={img1}
+          style={{ position: "absolute", top: -15, left: 0, height: "100px" }}
+        ></img>
+        <br></br>
         <a className="item" data-text="Dog">
           <Link to="/Dog">
             <Dog size={48} style={{ textDecoration: "none", color: "white" }} />
+          </Link>
+        </a>
+        <a className="item" data-text="Cat">
+          <Link to="/Cat">
+            <Cat size={48} style={{ textDecoration: "none", color: "white" }} />
           </Link>
         </a>
         <a className="item" data-text="Bird">
@@ -61,12 +71,13 @@ function Sidebar() {
         </a>
         <a className="item" data-text="Cat">
           <Link to="/Cat">
-            <Cat size={48} style={{ textDecoration: "none", color: "white" }} />
+            <Rabbit
+              size={48}
+              style={{ textDecoration: "none", color: "white" }}
+            />
           </Link>
         </a>
-        <a className="item" data-text="Rabbit">
-          <Rabbit size={48} />
-        </a>
+
         <a className="item" data-text="Logout">
           <Link to="/Login">
             <LogOut

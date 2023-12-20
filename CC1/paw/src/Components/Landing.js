@@ -20,17 +20,17 @@ const App = () => {
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
           crossorigin="anonymous"
         ></link>
-        <div class="content">
-          <div class="card">
+        <div class="contentab">
+          <div class="cardab">
             <img class="card-img-top" />
           </div>
-          <div class="info">
+          <div class="infoab">
             <h1 class="c">
               Adopt <br></br>Me !
             </h1>
             <br></br>
             <h3>
-              <p>
+              <p style={{ color: "white" }}>
                 Abandoned pets and stray dogs do not ask for much. All they need
                 is another chance.Abused or neglected on Indian streets, Desi
                 dogs are finding loving homes in the West! These dogs are known

@@ -3,6 +3,7 @@ import React from "react";
 import Shine from "./Shine";
 import Sidebar from "./Sidebar";
 import "../Assets/Home.css";
+import Footer from "./Footer";
 function Home() {
   return (
     <body className="dv2">
@@ -15,13 +16,14 @@ function Home() {
               fontStyle: "italic",
               fontSize: "60px",
               fontFamily: "'Times New Roman', Times, serif",
-              color: "white",
-              marginBottom: "white",
+              // color: "white",
+              // marginBottom: "white",
             }}
           >
             You can’t change their past, but you can rewrite their future.
           </h1>
         </div>
+        <Footer />
       </div>
     </body>
   );

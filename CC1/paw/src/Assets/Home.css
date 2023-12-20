@@ -1,28 +1,30 @@
 .dv2{
     /* background-color: black; */
-    background-image: url("./Img/pet6.jpg");
+    background-image: url("./Img/try.jpeg");
     background-size:23cm ;
     margin: 0;
     background-repeat: no-repeat;
     /* background-position: center; */
     display: flex; /* Use flexbox to center the content vertically */
     /* align-items: center; */
-    background-size: cover;
-    height: 100vh; 
+    /* background-size: cover; */
+    min-height: 150vh; 
+    border: 0;
+    padding: 0;
 }
 
 .dv1{
     /* background-color: aqua; */
     /* background-image: url('./Img/pet3.jpg'); */
-    background: white,transparent;
-    backdrop-filter: blur(10px);
+    /* background: white,transparent; */
+    /* backdrop-filter: blur(10px); */
     height: 10cm;
     width: 14cm;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 24cm;
-    margin-top: 4cm;
+    margin-top: 6cm;
     right: 0;
     bottom: 0;
     /* transition: 0.4s; */
@@ -34,5 +36,8 @@
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
-    color: wheat;
+    color: rgb(0, 0, 0);
 }
+
+
+
