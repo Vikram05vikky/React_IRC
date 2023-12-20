@@ -1,0 +1,41 @@
+
+.abt1{
+    background-color: #ad7d52;
+}
+.abt3{
+
+    margin-top: 2cm; 
+    right: 0;
+    bottom: 0;
+}
+
+
+.h1{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+
+.cardoos {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-top: 3cm;
+    margin-left: 2.5cm;
+    /* margin-right: 2cm; */
+    transition: 0.3s;
+    width: 170vh; 
+  }
+  
+  .cardoos:hover {
+    box-shadow:
+  -2.8px -1.5px 15.6px -1px rgba(0, 0, 0, 0.096),
+  -3.5px -1.8px 25.7px -1px rgba(0, 0, 0, 0.147),
+  0px 0px 30.8px -1px rgba(0, 0, 0, 0.17),
+  12.3px 6.4px 33.1px -1px rgba(0, 0, 0, 0.175),
+  47.3px 24.8px 40.8px -1px rgba(0, 0, 0, 0.167)
+;
+  }
+  
+  

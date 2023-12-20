@@ -20,15 +20,17 @@ section{
 
 .contentab
 {
-    padding-left: 3cm;
-    width:100%;
-    height: auto;
-    /* background-color: #0e0202;  */
-    /* background-image: url(C:\Users\VIKRAM\Documents\GitHub\React_IRC\Day3\myapp\src\Assets\Img\final.jpg); */
+    /* padding-left: 3cm; */
+    /* width:100%; */
+    /* height: auto */
     display: flex;
     justify-content: space-between;
+    margin-top: 3cm;
+    margin-right: 2cm;
     opacity: 0.81;
     padding: 0px;
+    /* margin-bottom: 2cm; */
+    height: 12cm;
     /* border-color: #f7f3f3; */
     /* flex-direction: column; */
 }
@@ -36,21 +38,24 @@ section{
 .cardab{
     width:40%;
     margin-left: 3cm;
-    background-image: url('https://images.pexels.com/photos/4000312/pexels-photo-4000312.jpeg?cs=srgb&dl=pexels-sharon-snider-4000312.jpg&fm=jpg');
+    background-image: url('./Img/dogland.png');
     background-size: cover;
-   
     padding-right: 2cm;
     margin-right: 2cm;
+    padding-bottom: 3cm;
+    transition: 0.4s;
 }
+
 .infoab{
     width:40%;
     margin-right: 1cm;
-    /* overflow: hidden; */
-    /* background: transparent; */
-    /* backdrop-filter: blur(10px); */
+    overflow: hidden; 
+    /* background: transparent; 
+    backdrop-filter: blur(10px); */
+    margin-bottom: 2cm;
+    height: auto;
 }
-
-.contentab .infoab .c{
+.infoab .c{
     padding-left: 20px;
     color: #f8a414;
     font-size: 55px;
@@ -58,7 +63,7 @@ section{
     font-weight: 1000;
     letter-spacing: 2px;
     line-height: 60px;
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
     transition: 0.3s;
     overflow: hidden;
 }

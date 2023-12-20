@@ -24,20 +24,23 @@ function Sidebar() {
           </Link>
         </button>
         <button className="button">
-          <Link to="/About" style={{ textDecoration: "none", color: "white" }}>
+          <Link
+            to="/Stories"
+            style={{ textDecoration: "none", color: "white" }}
+          >
             Stories
           </Link>
         </button>
+        {/* <button className="button">
+          <Link to="/About" style={{ textDecoration: "none", color: "white" }}>
+            About
+          </Link>
+        </button> */}
         <button className="button">
           <Link
             to="/Contact"
             style={{ textDecoration: "none", color: "white" }}
           >
-            About
-          </Link>
-        </button>
-        <button className="button">
-          <Link to="/Info" style={{ textDecoration: "none", color: "white" }}>
             Contact
           </Link>
         </button>
@@ -61,21 +64,19 @@ function Sidebar() {
             <Cat size={48} style={{ textDecoration: "none", color: "white" }} />
           </Link>
         </a>
-        <a className="item" data-text="Bird">
-          <Link to="/Bird">
-            <Bird
-              size={48}
-              style={{ textDecoration: "none", color: "white" }}
-            />
+        <a className="ite">
+          <Link to="/Others" style={{ textDecoration: "none" }}>
+            <h6
+              style={{
+                fontSize: "20px",
+                textDecoration: "none",
+                color: "white",
+              }}
+            >
+              Others
+            </h6>
           </Link>
-        </a>
-        <a className="item" data-text="Cat">
-          <Link to="/Cat">
-            <Rabbit
-              size={48}
-              style={{ textDecoration: "none", color: "white" }}
-            />
-          </Link>
+          {/* <h6>Others</h6> */}
         </a>
 
         <a className="item" data-text="Logout">

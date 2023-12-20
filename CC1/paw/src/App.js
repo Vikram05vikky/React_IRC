@@ -10,6 +10,11 @@ import Contact from "./Components/Contact";
 // import { Bird, Cat, Dog } from "lucide-react";
 import Dog from "./Components/Card/Dog";
 import Cat from "./Components/Card/Cat";
+import Others from "./Components/Card/Others";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+import About from "./Components/About";
+import Owner from "./Components/Card/Owner";
+import Stories from "./Components/Stories";
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(true);
@@ -33,7 +38,11 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Dog" element={<Dog />} />
           <Route path="/Cat" element={<Cat />} />
-          {/* <Route path="/Bird" element={<Bird />} /> */}
+          <Route path="/Others" element={<Others />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Owner" element={<Owner />} />
+          <Route path="/Stories" element={<Stories />} />
         </Routes>
       )}
     </div>

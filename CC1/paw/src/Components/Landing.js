@@ -21,9 +21,7 @@ const App = () => {
           crossorigin="anonymous"
         ></link>
         <div class="contentab">
-          <div class="cardab">
-            <img class="card-img-top" />
-          </div>
+          <div class="cardab">{/* <img class="card-img-top" /> */}</div>
           <div class="infoab">
             <h1 class="c">
               Adopt <br></br>Me !
@@ -34,22 +32,32 @@ const App = () => {
                 Abandoned pets and stray dogs do not ask for much. All they need
                 is another chance.Abused or neglected on Indian streets, Desi
                 dogs are finding loving homes in the West! These dogs are known
-                to have a calm and gentle demeanor around them. They bond
-                strongly with their people and make an excellent family pet that
-                is very loving, loyal and intelligent.
+                to have a calm and gentle demeanor around them.
               </p>
             </h3>
           </div>
         </div>
 
         <div class="media-icons">
-          <a href="#">
+          <a
+            href="https://en-gb.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="#">
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-x-twitter"></i>
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>

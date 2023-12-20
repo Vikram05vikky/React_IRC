@@ -2,10 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
 
-
-
-
-
 .cardd--1 .cardd__img,
 .cardd--1 .cardd__img--hover {
   background-image: url("https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -54,3 +50,37 @@
   opacity: 0.3;
 }
 
+.cardoo {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    transition: 0.3s;
+    width: 7cm;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cardoo:hover {
+    box-shadow:
+  -2.8px -1.5px 15.6px -1px rgba(0, 0, 0, 0.096),
+  -3.5px -1.8px 25.7px -1px rgba(0, 0, 0, 0.147),
+  0px 0px 30.8px -1px rgba(0, 0, 0, 0.17),
+  12.3px 6.4px 33.1px -1px rgba(0, 0, 0, 0.175),
+  47.3px 24.8px 40.8px -1px rgba(0, 0, 0, 0.167)
+;
+  }
+  
+  /* Add some padding inside the card container */
+  .containeroo {
+    padding: 2px 16px;
+    padding-top: 2cm;
+  }
+
+  .ooh3{
+    padding-left: 2.3cm;
+  }
+
+  .oh3{
+    padding-left: 1.7cm;
+  }
+  .ooh1{
+    padding-left: .7cm;
+  }

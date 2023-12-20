@@ -17,6 +17,7 @@ body {
   .lnav .item {
     color: white;
     margin-left: .3cm;
+    margin-top:1cm;
     font-size: 2em;
     text-decoration: none;
     position: relative;

@@ -1,0 +1,80 @@
+.abt1{
+    /* background-color: black; */
+    /* background-image: url("./Img/try.jpeg"); */
+    background-size:23cm ;
+    margin: 0;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    display: flex; /* Use flexbox to center the content vertically */
+    /* align-items: center; */
+    /* background-size: cover; */
+    min-height: 150vh; 
+    border: 0;
+    padding: 0;
+}
+
+.abt3{
+    /* background-color: aqua; */
+    /* background-image: url('./Img/pet3.jpg'); */
+    /* background: white,transparent; */
+    /* backdrop-filter: blur(10px); */
+    height: 10cm;
+    width: 14cm;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-left: 24cm;
+
+    margin-top: 6cm; */
+    right: 0;
+    padding-top: 2cm;
+    padding-left: 4cm;
+    bottom: 0;
+    /* transition: 0.4s; */
+    margin-bottom: 2px solid white;
+}
+
+
+.h1{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+
+.cardoos {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    transition: 0.3s;
+    width: 7cm;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cardoos:hover {
+    box-shadow:
+  -2.8px -1.5px 15.6px -1px rgba(0, 0, 0, 0.096),
+  -3.5px -1.8px 25.7px -1px rgba(0, 0, 0, 0.147),
+  0px 0px 30.8px -1px rgba(0, 0, 0, 0.17),
+  12.3px 6.4px 33.1px -1px rgba(0, 0, 0, 0.175),
+  47.3px 24.8px 40.8px -1px rgba(0, 0, 0, 0.167)
+;
+  }
+  
+  /* Add some padding inside the card container */
+  .containeroos {
+    padding: 2px 16px;
+    padding-top: 2cm;
+  }
+
+  .oohs3{
+    padding-left: 2.3cm;
+  }
+
+  .ohs3{
+    padding-left: 1.7cm;
+  }
+  .oohs1{
+    padding-left: .7cm;
+  }
+
