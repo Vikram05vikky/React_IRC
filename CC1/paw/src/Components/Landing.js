@@ -6,9 +6,7 @@ const App = () => {
   return (
     <body className="h">
       <section>
-        <Shine />
         <sidebar />
-        {/* <Side /> */}
         <Nav />
         <link
           rel="stylesheet"
@@ -28,11 +26,11 @@ const App = () => {
             </h1>
             <br></br>
             <h3>
-              <p style={{ color: "white" }}>
+              <p style={{ color: "white", fontWeight: "40px" }}>
                 Abandoned pets and stray dogs do not ask for much. All they need
                 is another chance.Abused or neglected on Indian streets, Desi
-                dogs are finding loving homes in the West! These dogs are known
-                to have a calm and gentle demeanor around them.
+                dogs are finding longing to find homes ! These dogs are known to
+                have a calm and gentle demeanor around .
               </p>
             </h3>
           </div>

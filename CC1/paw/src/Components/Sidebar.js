@@ -80,7 +80,7 @@ function Sidebar() {
         </a>
 
         <a className="item" data-text="Logout">
-          <Link to="/Login">
+          <Link to="/">
             <LogOut
               size={48}
               style={{ textDecoration: "none", color: "white" }}

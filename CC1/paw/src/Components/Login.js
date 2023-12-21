@@ -1,19 +1,17 @@
 import React from "react";
 import "../Assets/Login.css";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import Register from "./Register";
-import Home from "./Home";
-import { toast, ToastContainer } from "react-toastify";
+import Nav from "./Nav";
+import LRNav from "./LRNav";
 const Login = () => {
   const move = useNavigate();
   const Signin = () => {
     let a = document.getElementById("name").value;
     let b = document.getElementById("pass1").value;
 
-    if (a != "vikram" && b != "vikky") {
+    if (a !== "vikram" && b !== "vikky") {
       alert("Username / Password invalid");
-    } else if (a != "vikram" || b != "vikky") {
+    } else if (a !== "vikram" || b !== "vikky") {
       alert("Username / Password invalid");
     } else {
       move("/Home");
@@ -26,6 +24,7 @@ const Login = () => {
 
   return (
     <div className="v1">
+      <LRNav />
       <body className="b1">
         <form class="container" onSubmit={Signin}>
           <h2>Login</h2>
