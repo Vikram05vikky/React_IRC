@@ -22,6 +22,9 @@ Cat:
 Others:
 <img src='https://github.com/Vikram05vikky/React_IRC/blob/main/CC1/paw/Screenshot/Others.png'></img>
 
+Owner:
+<img src='https://github.com/Vikram05vikky/React_IRC/blob/main/CC1/paw/Screenshot/Owner.png'></img>
+
 Stories:
 <img src='https://github.com/Vikram05vikky/React_IRC/blob/main/CC1/paw/Screenshot/Stories.png'></img>
 
