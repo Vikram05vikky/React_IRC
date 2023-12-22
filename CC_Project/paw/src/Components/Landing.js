@@ -30,7 +30,7 @@ const App = () => {
                 Abandoned pets and stray dogs do not ask for much. All they need
                 is another chance.Abused or neglected on Indian streets, Desi
                 dogs are finding longing to find homes ! These dogs are known to
-                have a calm and gentle demeanor around .
+                have a calm and gentle around .
               </p>
             </h3>
           </div>
