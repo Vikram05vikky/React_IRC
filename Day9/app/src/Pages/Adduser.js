@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { addUser } from "../Services/api";
 import { useNavigate } from "react-router-dom";
-
-function Adduser() {
+const Adduser = () => {
   const navigate = useNavigate();
   const [data, setData] = useState({
     username: "",
@@ -15,13 +14,14 @@ function Adduser() {
     e.preventDefault();
     try {
       const res = await addUser(data);
-      if (res.status === 201) alert("User added");
-      navigate("/");
+      if (res.status === 201) {
+        alert("user added");
+        navigate("/");
+      }
     } catch (e) {
       console.log(e);
     }
   };
-
   return (
     <>
       <form onSubmit={handleSubmit}>
@@ -37,15 +37,13 @@ function Adduser() {
           placeholder="password"
           onChange={handleChange}
         />
-        <input
-          type="submit"
-          value="Add"
-          className="submit-btn"
-          onChange={handleChange}
-        />
+        <button type="submit" className="submit-btn">
+          {" "}
+          Add{" "}
+        </button>
       </form>
     </>
   );
-}
+};
 
 export default Adduser;

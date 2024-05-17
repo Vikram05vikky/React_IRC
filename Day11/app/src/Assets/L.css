@@ -1,0 +1,24 @@
+.dv1{
+    background-color: black;
+    height: 2cm;
+    width: 100vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.but{
+    height: 1.5cm;
+    width: 2cm;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-right: 2cm;
+    margin: 0.2cm;
+    /* gap: 2cm */
+    /* display: flex; */
+    /* flex-direction: row; */
+    float: right;
+}

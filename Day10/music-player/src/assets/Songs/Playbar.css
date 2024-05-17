@@ -1,0 +1,33 @@
+.pb{
+    background-color: aliceblue;
+    height: 5cm;
+    width: 15cm;
+    border-radius: 10px;
+    padding-top: 1cm;
+    padding-left: 2cm;
+    align-items: center;
+    justify-content: center;
+}
+
+.h22{
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icon-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 2cm;
+    padding-right: 2cm;
+    justify-content: center;
+    align-items: center;
+}
+
+#audio-progress-bar {
+    width: 13cm;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    cursor: pointer;
+  }
+  
